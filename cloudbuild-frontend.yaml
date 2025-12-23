@@ -1,0 +1,14 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '--build-arg'
+      - 'REACT_APP_API_URL=${_REACT_APP_API_URL}'
+      - '-t'
+      - 'gcr.io/$PROJECT_ID/personacura-frontend'
+      - '-f'
+      - 'client/Dockerfile'
+      - '.'
+
+images:
+  - 'gcr.io/$PROJECT_ID/personacura-frontend'

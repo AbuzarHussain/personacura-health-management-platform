@@ -1,0 +1,16 @@
+{
+  "name": "Personacura",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server/index.js",
+    "start:client": "npm start --prefix client",
+    "start:server": "node server/index.js",
+    "build": "npm run build --prefix client"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "mysql2": "^3.15.3",
+    "dotenv": "^17.2.3"
+  }
+}

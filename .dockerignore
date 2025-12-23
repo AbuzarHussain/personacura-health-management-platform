@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+.git
+.gitignore
+.env
+client/build
+client/node_modules
+README.md
+doc
+.md
+TeamInfo.md
+
+

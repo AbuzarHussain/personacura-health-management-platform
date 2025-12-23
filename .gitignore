@@ -1,0 +1,9 @@
+node_modules/
+client/node_modules
+package-lock.json
+client/package-lock.json
+client/build
+project.env
+.DS_Store
+.vscode/
+project.env
